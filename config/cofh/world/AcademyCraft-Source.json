@@ -1,0 +1,56 @@
+{
+    "imagcrystal": {
+        "template": "uniform",
+        "block": "academy-craft:ac_Block_oreImagCrystal",
+        "clusterSize": 4,
+        "numClusters": 4,
+		"chunkChance": 6,
+        "minHeight": 1,
+        "maxHeight": 40,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -37
+        ]
+    },
+	"resonantcrystal": {
+        "template": "uniform",
+        "block": "academy-craft:ac_Block_oreResoCrystal",
+        "clusterSize": 8,
+        "numClusters": 6,
+		"chunkChance": 5,
+        "minHeight": 1,
+        "maxHeight": 40,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -37
+        ]
+    },
+	"imagphase": {
+        "template": "uniform",
+		"generator": "lake",
+        "block": "academy-craft:ac_Block_imagPhase",
+        "numClusters": 1,
+		"chunkChance": 20,
+        "minHeight": 1,
+        "maxHeight": 50,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -37
+        ]
+    }
+}
