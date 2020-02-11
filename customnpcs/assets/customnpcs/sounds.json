@@ -1,0 +1,38 @@
+{
+	"chromaticraft.elemental_precursors": {
+		"category": "music",
+		"sounds": [{"name": "../../../../mods/Reika/ChromatiCraft/Music/elemental precursors", "stream": true}]
+	},
+	"chromaticraft.ethereal_contact_c": {
+		"category": "music",
+		"sounds": [{"name": "../../../../mods/Reika/ChromatiCraft/Music/ethereal contact_c", "stream": true}]
+	},
+	"chromaticraft.explorer": {
+		"category": "music",
+		"sounds": [{"name": "../../../../mods/Reika/ChromatiCraft/Music/explorer", "stream": true}]
+	},
+	"chromaticraft.glowing_horizons": {
+		"category": "music",
+		"sounds": [{"name": "../../../../mods/Reika/ChromatiCraft/Music/glowing horizons", "stream": true}]
+	},
+	"chromaticraft.luminescence": {
+		"category": "music",
+		"sounds": [{"name": "../../../../mods/Reika/ChromatiCraft/Music/luminescence", "stream": true}]
+	},
+	"chromaticraft.nightfall": {
+		"category": "music",
+		"sounds": [{"name": "../../../../mods/Reika/ChromatiCraft/Music/nightfall", "stream": true}]
+	},
+	"chromaticraft.polychromacy_c": {
+		"category": "music",
+		"sounds": [{"name": "../../../../mods/Reika/ChromatiCraft/Music/polychromacy_c", "stream": true}]
+	},
+	"chromaticraft.singularity": {
+		"category": "music",
+		"sounds": [{"name": "../../../../mods/Reika/ChromatiCraft/Music/singularity", "stream": true}]
+	},
+	"chromaticraft.transcendental_journey": {
+		"category": "music",
+		"sounds": [{"name": "../../../../mods/Reika/ChromatiCraft/Music/transcendental journey", "stream": true}]
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"music.menu": {
+		"replace": true,
+		"category": "music",
+		"sounds": [
+			{
+				"name": "../../../../../mods/Reika/ChromatiCraft/Music/elemental precursors",
+				"stream": true
+			},
+			{
+				"name": "../../../../../mods/Reika/ChromatiCraft/Music/explorer",
+				"stream": true
+			},
+			{
+				"name": "../../../../../mods/Reika/ChromatiCraft/Music/glowing horizons",
+				"stream": true
+			},
+			{
+				"name": "../../../../../mods/Reika/ChromatiCraft/Music/luminescence",
+				"stream": true
+			},
+			{
+				"name": "../../../../../mods/Reika/ChromatiCraft/Music/nightfall",
+				"stream": true
+			},
+			{
+				"name": "../../../../../mods/Reika/ChromatiCraft/Music/singularity",
+				"stream": true
+			},
+			{
+				"name": "../../../../../mods/Reika/ChromatiCraft/Music/transcendental journey",
+				"stream": true
+			}
+		]
+	}
+}

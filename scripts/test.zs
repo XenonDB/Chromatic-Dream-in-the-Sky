@@ -1,0 +1,2 @@
+mods.thaumcraft.Infusion.addRecipe("ASPECTS", <minecraft:stone>, [<minecraft:log>, <minecraft:flint>], "ignis 30, permutatio 15", <minecraft:sand> * 6, 5);
+mods.thaumcraft.Infusion.addRecipe("NITOR", <Thaumcraft:ItemResource:1>, [<minecraft:fire_charge>, <Thaumcraft:ItemResource>, <minecraft:flint_and_steel>], "ignis 20, potentia 10, permutatio 12", <minecraft:fire> * 4, 5);
