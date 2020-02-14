@@ -60,6 +60,15 @@ orechroThermitic.add(<ChromatiCraft:chromaticraft_block_tieredore:10>);
 
 
 //sieve related
+mods.exnihilo.Sieve.removeRecipe(<minecraft:stone>);
+mods.exnihilo.Sieve.addRecipe(<minecraft:stone>, <TConstruct:ore.berries.one:8>, 96);
+mods.exnihilo.Sieve.addRecipe(<minecraft:stone>, <TConstruct:ore.berries.one:9>, 96);
+mods.exnihilo.Sieve.addRecipe(<minecraft:stone>, <TConstruct:ore.berries.one:10>, 96);
+mods.exnihilo.Sieve.addRecipe(<minecraft:stone>, <TConstruct:ore.berries.one:11>, 96);
+mods.exnihilo.Sieve.addRecipe(<minecraft:stone>, <TConstruct:ore.berries.two:9>, 128);
+mods.exnihilo.Sieve.addRecipe(<minecraft:stone>, [<exastris:chiselStone>, <exastris:chiselStone>, <exastris:chiselStone>, <exastris:chiselStone>], [1, 2, 4, 16]); 
+mods.exnihilo.Sieve.addRecipe(<minecraft:stone>, [<exastris:chiselStone:1>, <exastris:chiselStone:1>, <exastris:chiselStone:1>, <exastris:chiselStone:1>], [1, 2, 4, 16]); 
+
 mods.exnihilo.Sieve.removeRecipe(<minecraft:dirt>);
 mods.exnihilo.Sieve.addRecipe(<minecraft:dirt>, [<exnihilo:stone>, <exnihilo:stone>, <exnihilo:stone>, <exnihilo:stone>, <exnihilo:stone>, <exnihilo:stone>, <minecraft:wheat_seeds>, <AgriCraft:seedCarrot>], [1, 1, 2, 2, 3, 3, 14, 15]); 
 
@@ -93,10 +102,7 @@ mods.exnihilo.Sieve.removeRecipe(<exnihilo:exnihilo.gravel_nether>);
 mods.exnihilo.Sieve.addRecipe(<exnihilo:exnihilo.gravel_nether>, <exnihilo:exnihilo.nether_iron_broken>, 6);
 mods.exnihilo.Sieve.addRecipe(<exnihilo:exnihilo.gravel_nether>, <exnihilo:exnihilo.nether_gold_broken>, 6);
 mods.exnihilo.Sieve.addRecipe(<exnihilo:exnihilo.gravel_nether>, <exnihilo:exnihilo.nether_copper_broken>, 10);
-mods.exnihilo.Sieve.addRecipe(<exnihilo:exnihilo.gravel_nether>, <exastris:CobaltOreItem>, 64);
-mods.exnihilo.Sieve.addRecipe(<exnihilo:exnihilo.gravel_nether>, <exastris:ArditeOreItem>, 64);
 
 mods.exnihilo.Sieve.removeRecipe(<exnihilo:exnihilo.gravel_ender>);
 mods.exnihilo.Sieve.addRecipe(<exnihilo:exnihilo.gravel_ender>, <exnihilo:exnihilo.ender_tin_broken>, 10);
-mods.exnihilo.Sieve.addRecipe(<exnihilo:exnihilo.gravel_ender>, <exnihilo:exnihilo.ender_silver_broken>, 6);
 mods.exnihilo.Sieve.addRecipe(<exnihilo:exnihilo.gravel_ender>, <exnihilo:exnihilo.ender_lead_broken>, 6);
