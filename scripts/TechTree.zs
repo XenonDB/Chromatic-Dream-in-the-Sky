@@ -58,6 +58,10 @@ orechroFirestone.add(<ChromatiCraft:chromaticraft_block_tieredore:9>);
 val orechroThermitic = <ore:oreChroThermitic>;
 orechroThermitic.add(<ChromatiCraft:chromaticraft_block_tieredore:10>);
 
+val orechroVibrantCrystal = <ore:orechroVibrantCrystal>;
+orechroVibrantCrystal.add(<ChromatiCraft:chromaticraft_block_tieredore:11>);
+val orechroVoidStone = <ore:orechroVoidStone>;
+orechroVoidStone.add(<ChromatiCraft:chromaticraft_block_tieredore:12>);
 
 //sieve related
 mods.exnihilo.Sieve.removeRecipe(<minecraft:stone>);

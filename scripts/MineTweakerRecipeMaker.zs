@@ -67,6 +67,9 @@ recipes.removeShaped(<academy-craft:ac_Item_constPlate> * 2, [[<ore:ingotConstra
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<MineFactoryReloaded:rubberwood.sapling:1> * 9, [<MineFactoryReloaded:rubberwood.sapling:3>]);
+recipes.addShapeless(<MineFactoryReloaded:rubberwood.sapling:2> * 9, [<MineFactoryReloaded:rubberwood.sapling:1>]);
+recipes.addShapeless(<MineFactoryReloaded:rubberwood.sapling> * 9, [<MineFactoryReloaded:rubberwood.sapling:2>]);
 recipes.addShapeless(<MineFactoryReloaded:bucket.essence>, [<OpenBlocks:filledbucket>, <minecraft:bucket>]);
 recipes.addShapeless(<OpenBlocks:filledbucket>, [<MineFactoryReloaded:bucket.essence>, <minecraft:bucket>]);
 recipes.addShapeless(<witchery:ingredient:157> * 9, [<ore:dustSilver>]);
