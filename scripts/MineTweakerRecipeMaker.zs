@@ -14,6 +14,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<DraconicEvolution:dissEnchanter>);
 recipes.remove(<Mekanism:MachineBlock:4>);
 recipes.remove(<ThermalExpansion:Frame:10>);
 recipes.remove(<EnderStorage:enderChest:4096>);
@@ -55,7 +56,7 @@ recipes.remove(<ThermalFoundation:lexicon>);
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 recipes.removeShapeless(<Botania:fertilizer>, [<minecraft:dye:15>, <minecraft:dye:11>, <minecraft:dye:11>, <minecraft:dye:1>, <minecraft:dye:1>]);
-recipes.removeShapeless(<ThermalFoundation:material:73> * 4, [<ore:ingotTin>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
+recipes.removeShapeless(<IC2:itemIngot:2> * 4, [<ore:ingotTin>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
@@ -66,8 +67,8 @@ recipes.removeShaped(<academy-craft:ac_Item_constPlate> * 2, [[<ore:ingotConstra
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
-recipes.addShapeless(<MineFactoryReloaded:bucket.essence>, [<OpenBlocks:filledbucket>]);
-recipes.addShapeless(<OpenBlocks:filledbucket>, [<MineFactoryReloaded:bucket.essence>]);
+recipes.addShapeless(<MineFactoryReloaded:bucket.essence>, [<OpenBlocks:filledbucket>, <minecraft:bucket>]);
+recipes.addShapeless(<OpenBlocks:filledbucket>, [<MineFactoryReloaded:bucket.essence>, <minecraft:bucket>]);
 recipes.addShapeless(<witchery:ingredient:157> * 9, [<ore:dustSilver>]);
 recipes.addShapeless(<ReactorCraft:reactorcraft_item_raw:2> * 4, [<IC2:itemUran238>]);
 recipes.addShapeless(<excompressum:bait:5>, [<minecraft:wheat_seeds>, <minecraft:wheat>]);
