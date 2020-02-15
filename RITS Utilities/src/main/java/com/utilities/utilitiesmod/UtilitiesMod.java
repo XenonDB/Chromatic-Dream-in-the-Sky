@@ -5,12 +5,16 @@ import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.entity.player.ArrowNockEvent;
+import net.minecraftforge.event.entity.player.EntityItemPickupEvent;
 
 import java.util.Random;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = UtilitiesMod.MODID, version = UtilitiesMod.VERSION)
@@ -35,9 +39,10 @@ public class UtilitiesMod
         {
             super(material);
             this.setBlockName(blockName);
-            this.setBlockTextureName(MODID + ":" + blockName);
+            this.setBlockTextureName("utilitiesmod"+":"+blockName);
             this.setCreativeTab(CreativeTabs.tabBlock);
             this.setHardness(4.0F);
+            this.setLightLevel(15.0F);
             this.setHarvestLevel("pickaxe", 1);
             this.toDrop = toDrop;
         }
@@ -56,9 +61,16 @@ public class UtilitiesMod
         public ModItem(String itemName)
         {
             this.setUnlocalizedName(itemName);
-            this.setTextureName(MODID + ":" + itemName);
+            this.setTextureName("utilitiesmod"+":"+itemName);
             this.setCreativeTab(CreativeTabs.tabMisc);
         }
 
+    }
+    public static class StaticForgeEventHandler {
+        @SubscribeEvent
+        public static void arrowNocked(net.minecraftforge.event.entity.living.LivingDeathEvent  event) {
+       
+            System.out.println("Something Dead");
+        }
     }
 }
