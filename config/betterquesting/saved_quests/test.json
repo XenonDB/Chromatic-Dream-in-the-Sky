@@ -57,7 +57,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Dirt,wood and sappling\n\nAs you wake up, you find a chest which next to you. You open it up and find there is piece of dirt, a sappling, some fertilizer as well as a trustly pickaxe. \nWhile you gathering item from chest, you found out no idea why am i here or who am i. As you deeply thinking into it and painful that you feel."
+          "desc:8": "Dirt, Wood \u0026 Sapling\n\nAs you woke up, you find a chest next to you. Open up and look inside it, what you could find was a piece of dirt, a sapling, some bottles of fertilizer, as well as a trustly pickaxe.\nWhile you gathering those items from the chest, you really got no idea about \"Why am I here?\" nor \"Who am I, anyway?\". And as you deeply thinking into it, nothing but painful is what you feel."
         }
       },
       "tasks:9": {
@@ -126,7 +126,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Wood!\n\nNow you have a pickaxe, you decided to break the room and see what happen outside.As soon you breach the wall, you seen nothing at you point of view not even single block.\nYou took little time to realize, world is no longer exist and you are the only one left on this broken world....\nWhile still shocking by the fact, you look at the dirt and sapling. Flashing memory about a mysterious human being....placing a sapling on top of the dirt.\n\nTip: keep some fertilizer until you can farm."
+          "desc:8": "WOOD!\n\n\nNow you have a pickaxe. You decided to break out the room and see what happened outside.As soon as you breach the wall, you\u0027ve seen nothing in your sight, Not Even A Single Block.\nTook you little time to realize that the world is no longer in exists. And you... are the only one left among this broken realm.....\nThough still shocked by the fact, you spared a look at the sapling in your hands. Flashing memory showed you a mysterious human being... ... planting a sapling on a block of dirt?\n\nTip: keep some fertilizer until you can farm.\n"
         }
       },
       "tasks:9": {
@@ -2872,6 +2872,41 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
+          "x:3": -212,
+          "y:3": -168,
+          "id:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": -116,
+          "id:3": 25,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Restoring civilization-ch1",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Automation could make people lazy"
+        }
+      },
+      "order:3": 1
+    },
+    "1:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
           "x:3": -372,
           "y:3": -256,
           "id:3": 0,
@@ -3015,41 +3050,6 @@
       },
       "order:3": 0
     },
-    "1:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 24,
-          "x:3": -212,
-          "y:3": -168,
-          "id:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "sizeX:3": 24,
-          "x:3": -156,
-          "y:3": -116,
-          "id:3": 25,
-          "sizeY:3": 24
-        }
-      },
-      "lineID:3": 0,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "Restoring civilization-ch1",
-          "icon:10": {
-            "id:8": "minecraft:book",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "Automation could make people lazy"
-        }
-      },
-      "order:3": 1
-    },
     "2:10": {
       "quests:9": {
         "0:10": {
@@ -3155,90 +3155,6 @@
       "order:3": 4
     },
     "5:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 24,
-          "x:3": -248,
-          "y:3": -196,
-          "id:3": 34,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "sizeX:3": 24,
-          "x:3": -112,
-          "y:3": -152,
-          "id:3": 35,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "sizeX:3": 24,
-          "x:3": -188,
-          "y:3": -152,
-          "id:3": 36,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "sizeX:3": 24,
-          "x:3": -188,
-          "y:3": -100,
-          "id:3": 37,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "sizeX:3": 24,
-          "x:3": -112,
-          "y:3": -100,
-          "id:3": 38,
-          "sizeY:3": 24
-        }
-      },
-      "lineID:3": 10,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "Treasure hunting",
-          "icon:10": {
-            "id:8": "minecraft:book",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "Delieve thing back to your island"
-        }
-      },
-      "order:3": 5
-    },
-    "6:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 24,
-          "x:3": -280,
-          "y:3": -200,
-          "id:3": 39,
-          "sizeY:3": 24
-        }
-      },
-      "lineID:3": 8,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "Logistics",
-          "icon:10": {
-            "id:8": "minecraft:book",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "Worrying storage?"
-        }
-      },
-      "order:3": 6
-    },
-    "7:10": {
       "quests:9": {},
       "lineID:3": 5,
       "properties:10": {
@@ -3258,7 +3174,7 @@
       },
       "order:3": 7
     },
-    "8:10": {
+    "6:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
@@ -3328,7 +3244,7 @@
       },
       "order:3": 8
     },
-    "9:10": {
+    "7:10": {
       "quests:9": {},
       "lineID:3": 7,
       "properties:10": {
@@ -3348,7 +3264,35 @@
       },
       "order:3": 9
     },
-    "10:10": {
+    "8:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -280,
+          "y:3": -200,
+          "id:3": 39,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 8,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Logistics",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Worrying storage?"
+        }
+      },
+      "order:3": 6
+    },
+    "9:10": {
       "quests:9": {},
       "lineID:3": 9,
       "properties:10": {
@@ -3367,6 +3311,62 @@
         }
       },
       "order:3": 10
+    },
+    "10:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -248,
+          "y:3": -196,
+          "id:3": 34,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -112,
+          "y:3": -152,
+          "id:3": 35,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -188,
+          "y:3": -152,
+          "id:3": 36,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -188,
+          "y:3": -100,
+          "id:3": 37,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -112,
+          "y:3": -100,
+          "id:3": 38,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 10,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Treasure hunting",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Delieve thing back to your island"
+        }
+      },
+      "order:3": 5
     }
   },
   "questSettings:10": {
