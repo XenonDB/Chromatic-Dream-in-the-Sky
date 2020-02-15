@@ -26,7 +26,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Welcome to the new modpack!\n\nThis is Reika in the sky, a.k.a R.I.T.S also a skyblock style modpack.\nNow, you might notice Chromatics, Reactor...and you better know what are coming for you :P\n\n\nOur member:\nCFxXuman--Main dev...\nplaceholder\nplaceholder\nplaceholder\n"
+          "desc:8": "Welcome to the new modpack!\n\nThis is Reika in the sky, a.k.a R.I.T.S also a skyblock style modpack.\nNow, you might notice Chromatics, Reactor...and you better know what are coming for you :P\n\n\nOur member:\nCFxXuman--Main dev...\nRiv_Falcon--alpha tester, quest editor\nKpstool--alpha tester\nMe(Yun)--Quest designer\n"
         }
       },
       "tasks:9": {},
@@ -57,7 +57,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Dirt,wood and sappling\n\nAs you wake up, you find a chest which next to you. You open it up and find there is piece of dirt, a sappling, some fertilizer as well as a trustly pickaxe. \nWhile you gathering item from chest, you found out no idea why am i here or who am i. As you deeply thinking into it and painful that you feel."
+          "desc:8": "Dirt, Wood \u0026 Sapling\n\nAs you woke up, you find a chest next to you. Open up and look inside it, what you could find was a piece of dirt, a sapling, some bottles of fertilizer, as well as a trustly pickaxe.\nWhile you gathering those items from the chest, you really got no idea about \"Why am I here?\" nor \"Who am I, anyway?\". And as you deeply thinking into it, nothing but painful is what you feel."
         }
       },
       "tasks:9": {
@@ -126,7 +126,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Wood!\n\nNow you have a pickaxe, you decided to break the room and see what happen outside.As soon you breach the wall, you seen nothing at you point of view not even single block.\nYou took little time to realize, world is no longer exist and you are the only one left on this broken world....\nWhile still shocking by the fact, you look at the dirt and sapling. Flashing memory about a mysterious human being....placing a sapling on top of the dirt.\n\nTip: the"
+          "desc:8": "WOOD!\n\n\nNow you have a pickaxe. You decided to break out the room and see what happened outside.As soon as you breach the wall, you\u0027ve seen nothing in your sight, Not Even A Single Block.\nTook you little time to realize that the world is no longer in exists. And you... are the only one left among this broken realm.....\nThough still shocked by the fact, you spared a look at the sapling in your hands. Flashing memory showed you a mysterious human being... ... planting a sapling on a block of dirt?\n\nTip: keep some fertilizer until you can farm.\n"
         }
       },
       "tasks:9": {
@@ -275,15 +275,13 @@
     },
     "5:10": {
       "questID:3": 5,
-      "preRequisites:11": [
-        2
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "partySingleReward:1": 0,
-          "visibility:8": "UNLOCKED",
+          "visibility:8": "NORMAL",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -309,7 +307,7 @@
           "index:3": 0,
           "targetNBT:10": {},
           "damageType:8": "",
-          "required:3": 10,
+          "required:3": 3,
           "taskID:8": "bq_standard:hunt",
           "target:8": "Zombie",
           "subtypes:1": 1
@@ -436,7 +434,7 @@
             "CustomNameVisible:1": 0
           },
           "damageType:8": "",
-          "required:3": 5,
+          "required:3": 3,
           "taskID:8": "bq_standard:hunt",
           "target:8": "Skeleton",
           "subtypes:1": 1
@@ -562,7 +560,7 @@
             "CustomNameVisible:1": 0
           },
           "damageType:8": "",
-          "required:3": 5,
+          "required:3": 2,
           "taskID:8": "bq_standard:hunt",
           "target:8": "Spider",
           "subtypes:1": 1
@@ -691,137 +689,9 @@
             "CustomNameVisible:1": 0
           },
           "damageType:8": "",
-          "required:3": 3,
-          "taskID:8": "bq_standard:hunt",
-          "target:8": "Creeper",
-          "subtypes:1": 1
-        },
-        "4:10": {
-          "ignoreNBT:1": 1,
-          "index:3": 4,
-          "targetNBT:10": {
-            "ForgeData:10": {},
-            "Attributes:9": {
-              "0:10": {
-                "Base:6": -2.0,
-                "Name:8": "tc.mobmod"
-              },
-              "1:10": {
-                "Base:6": 40.0,
-                "Name:8": "generic.maxHealth"
-              },
-              "2:10": {
-                "Base:6": 0.0,
-                "Name:8": "generic.knockbackResistance"
-              },
-              "3:10": {
-                "Base:6": 0.30000001192092896,
-                "Name:8": "generic.movementSpeed"
-              },
-              "4:10": {
-                "Base:6": 16.0,
-                "Name:8": "generic.followRange"
-              },
-              "5:10": {
-                "Base:6": 7.0,
-                "Name:8": "generic.attackDamage"
-              }
-            },
-            "Invulnerable:1": 0,
-            "PortalCooldown:3": 0,
-            "AbsorptionAmount:5": 0.0,
-            "FallDistance:5": 0.0,
-            "DeathTime:2": 0,
-            "DropChances:9": {
-              "0:5": 0.085,
-              "1:5": 0.085,
-              "2:5": 0.085,
-              "3:5": 0.085,
-              "4:5": 0.085
-            },
-            "carriedData:2": 0,
-            "PersistenceRequired:1": 0,
-            "id:8": "Enderman",
-            "HealF:5": 40.0,
-            "carried:2": 0,
-            "Motion:9": {
-              "0:6": 0.0,
-              "1:6": 0.0,
-              "2:6": 0.0
-            },
-            "Leashed:1": 0,
-            "UUIDLeast:4": -2834493080109641032,
-            "Health:2": 40,
-            "Air:2": 300,
-            "OnGround:1": 0,
-            "Dimension:3": 0,
-            "Rotation:9": {
-              "0:5": 2.7424,
-              "1:5": 0.0
-            },
-            "CreatureInfusion:10": {
-              "PlayerInfusions:11": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "InfusionCosts:10": {
-                "Aspects:9": {}
-              },
-              "tumorWarpTemp:3": 0,
-              "Infusions:11": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "toggleClimb:1": 0,
-              "toggleInvisible:1": 0,
-              "tumorWarp:3": 0,
-              "sitting:1": 0,
-              "tumorWarpPermanent:3": 0
-            },
-            "UUIDMost:4": 108410538440400,
-            "Equipment:9": {
-              "0:10": {},
-              "1:10": {},
-              "2:10": {},
-              "3:10": {},
-              "4:10": {}
-            },
-            "CustomName:8": "",
-            "Pos:9": {
-              "0:6": 0.0,
-              "1:6": 0.0,
-              "2:6": 0.0
-            },
-            "Fire:2": 0,
-            "CanPickUpLoot:1": 0,
-            "HurtTime:2": 0,
-            "AttackTime:2": 0,
-            "CustomNameVisible:1": 0
-          },
-          "damageType:8": "",
           "required:3": 1,
           "taskID:8": "bq_standard:hunt",
-          "target:8": "Enderman",
+          "target:8": "Creeper",
           "subtypes:1": 1
         }
       },
@@ -978,18 +848,18 @@
     "8:10": {
       "questID:3": 8,
       "preRequisites:11": [
-        5
+        2
       ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "partySingleReward:1": 0,
-          "visibility:8": "HIDDEN",
+          "visibility:8": "UNLOCKED",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "TConstruct:CraftingStation",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -998,11 +868,11 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "Placeholder",
+          "name:8": "Tinkering",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Placeholder!"
+          "desc:8": "Tool, make better life...?"
         }
       },
       "tasks:9": {
@@ -1012,11 +882,52 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:stone",
+              "id:8": "TConstruct:CraftingStation",
               "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "TConstruct:ToolStationBlock",
+              "Count:3": 1,
+              "Damage:2": 10,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "TConstruct:ToolStationBlock",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "TConstruct:ToolStationBlock",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "TConstruct:ToolStationBlock",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "TConstruct:blankPattern",
+              "Count:3": 16,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1133,8 +1044,33 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "TConstruct:frypan",
             "Count:3": 1,
+            "tag:10": {
+              "InfiTool:10": {
+                "BaseDurability:3": 97,
+                "Head:3": 0,
+                "BaseAttack:3": 2,
+                "Built:1": 1,
+                "HarvestLevel:3": 1,
+                "Attack:3": 2,
+                "RenderHead:3": 0,
+                "ModDurability:5": 0.0,
+                "Handle:3": 0,
+                "Broken:1": 0,
+                "Shoddy:5": 0.0,
+                "RenderHandle:3": 0,
+                "MiningSpeed:3": 350,
+                "Unbreaking:3": 0,
+                "Damage:3": 0,
+                "BonusDurability:3": 0,
+                "TotalDurability:3": 97,
+                "Modifiers:3": 3
+              },
+              "display:10": {
+                "Name:8": "§fWooden Frying Pan"
+              }
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -1142,11 +1078,11 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "Placeholder",
+          "name:8": "Starvation?",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Placeholder!"
+          "desc:8": "Hunger growing stronger...."
         }
       },
       "tasks:9": {
@@ -1156,11 +1092,52 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:stone",
+              "id:8": "harvestcraft:pamappleSapling",
               "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "harvestcraft:applejuiceItem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "exnihilo:silkworm_cooked",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:bread",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "harvestcraft:toastItem",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:carrot",
+              "Count:3": 16,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1640,7 +1617,6 @@
       "preRequisites:11": [
         17,
         14,
-        9,
         10
       ],
       "properties:10": {
@@ -1648,7 +1624,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "partySingleReward:1": 0,
-          "visibility:8": "HIDDEN",
+          "visibility:8": "UNLOCKED",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1660,7 +1636,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "repeatTime:3": -1,
           "globalShare:1": 0,
-          "questLogic:8": "AND",
+          "questLogic:8": "OR",
           "name:8": "Another dimension ",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
@@ -1742,21 +1718,18 @@
     },
     "20:10": {
       "questID:3": 20,
-      "preRequisites:11": [
-        19
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "partySingleReward:1": 0,
-          "visibility:8": "UNLOCKED",
+          "visibility:8": "NORMAL",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "Botania:lexicon",
+            "id:8": "minecraft:nether_star",
             "Count:3": 1,
-            "tag:10": {},
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -1764,33 +1737,14 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "Lexica Botania",
+          "name:8": "Placeholder",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "No Description"
+          "desc:8": "placeholder"
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "Botania:lexicon",
-              "Count:3": 1,
-              "tag:10": {},
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
+      "tasks:9": {},
       "rewards:9": {}
     },
     "21:10": {
@@ -1820,7 +1774,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "No Description"
+          "desc:8": "Learning herb....wait\n\n\nRRRR\n\nTip: use botania lexicon convert into herbology by crafting."
         }
       },
       "tasks:9": {
@@ -1928,9 +1882,7 @@
     },
     "24:10": {
       "questID:3": 24,
-      "preRequisites:11": [
-        13
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -2125,9 +2077,99 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:stone",
-              "Count:3": 1,
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
               "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            },
+            "7:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            },
+            "8:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            },
+            "9:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            },
+            "10:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 10,
+              "OreDict:8": ""
+            },
+            "11:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            },
+            "12:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 12,
+              "OreDict:8": ""
+            },
+            "13:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 13,
+              "OreDict:8": ""
+            },
+            "14:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 14,
+              "OreDict:8": ""
+            },
+            "15:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 8,
+              "Damage:2": 15,
               "OreDict:8": ""
             }
           },
@@ -2164,12 +2206,704 @@
           "desc:8": "Placeholder"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "29:10": {
+      "questID:3": 29,
+      "preRequisites:11": [
+        8
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "TConstruct:materials",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Building material",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Glory to fire!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "TConstruct:CraftedSoil",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "TConstruct:materials",
+              "Count:3": 128,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "30:10": {
+      "questID:3": 30,
+      "preRequisites:11": [
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "TConstruct:Smeltery",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Body of the giant furnace",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Juice metal"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "TConstruct:Smeltery",
+              "Count:3": 17,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "31:10": {
+      "questID:3": 31,
+      "preRequisites:11": [
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "TConstruct:Smeltery",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Heart of the furnace",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Give me lava!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "TConstruct:Smeltery",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "TConstruct:LavaTank",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "32:10": {
+      "questID:3": 32,
+      "preRequisites:11": [
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "TConstruct:Smeltery",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Flowing metal",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Where can i pour those metal out?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "TConstruct:Smeltery",
+              "Count:3": 2,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "TConstruct:SearedBlock",
+              "Count:3": 2,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "33:10": {
+      "questID:3": 33,
+      "preRequisites:11": [
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "TConstruct:SearedBlock",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Casting metal",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Cast iron armor only have 95%... wrong game!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "TConstruct:SearedBlock",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "TConstruct:SearedBlock",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "34:10": {
+      "questID:3": 34,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "placeholder",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "placeholder"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "35:10": {
+      "questID:3": 35,
+      "preRequisites:11": [
+        19
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "MineFactoryReloaded:rubberwood.sapling",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Rubber",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Chewing gem"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "MineFactoryReloaded:rubberwood.sapling",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "36:10": {
+      "questID:3": 36,
+      "preRequisites:11": [
+        19
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_wart",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Nether crop",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Good to know nether can grow weed"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:nether_wart",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "37:10": {
+      "questID:3": 37,
+      "preRequisites:11": [
+        19
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Blaze rod",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "A pack of man-hunting blaze!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:blaze_rod",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "38:10": {
+      "questID:3": 38,
+      "preRequisites:11": [
+        19
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "IC2:itemcrystalmemory",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "AE2 press plate",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Oh no....oh no!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "IC2:itemcrystalmemory",
+              "Count:3": 1,
+              "tag:10": {
+                "Pattern:10": {
+                  "id:2": 4164,
+                  "Count:1": 1,
+                  "Damage:2": 13
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "IC2:itemcrystalmemory",
+              "Count:3": 1,
+              "tag:10": {
+                "Pattern:10": {
+                  "id:2": 4164,
+                  "Count:1": 1,
+                  "Damage:2": 15
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "IC2:itemcrystalmemory",
+              "Count:3": 1,
+              "tag:10": {
+                "Pattern:10": {
+                  "id:2": 4164,
+                  "Count:1": 1,
+                  "Damage:2": 14
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "IC2:itemcrystalmemory",
+              "Count:3": 1,
+              "tag:10": {
+                "Pattern:10": {
+                  "id:2": 4164,
+                  "Count:1": 1,
+                  "Damage:2": 19
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "39:10": {
+      "questID:3": 39,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Placeholder",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Placeholder"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     }
   },
   "questLines:9": {
     "0:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -212,
+          "y:3": -168,
+          "id:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": -116,
+          "id:3": 25,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Restoring civilization-ch1",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Automation could make people lazy"
+        }
+      },
+      "order:3": 1
+    },
+    "1:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
@@ -2222,82 +2956,75 @@
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -220,
-          "y:3": -48,
+          "x:3": -160,
+          "y:3": -100,
           "id:3": 7,
           "sizeY:3": 24
         },
         "8:10": {
-          "sizeX:3": 24,
-          "x:3": -324,
-          "y:3": -144,
-          "id:3": 8,
-          "sizeY:3": 24
-        },
-        "9:10": {
           "sizeX:3": 24,
           "x:3": -372,
           "y:3": -144,
           "id:3": 9,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": -268,
           "y:3": -144,
           "id:3": 10,
           "sizeY:3": 24
         },
-        "11:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": -164,
           "y:3": -144,
           "id:3": 11,
           "sizeY:3": 24
         },
-        "12:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": -220,
           "y:3": -144,
           "id:3": 12,
           "sizeY:3": 24
         },
-        "13:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": -220,
           "y:3": -100,
           "id:3": 13,
           "sizeY:3": 24
         },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -324,
+          "y:3": -144,
+          "id:3": 14,
+          "sizeY:3": 24
+        },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": -372,
-          "y:3": -192,
-          "id:3": 14,
+          "x:3": -164,
+          "y:3": -44,
+          "id:3": 16,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": -164,
-          "y:3": -100,
-          "id:3": 16,
-          "sizeY:3": 24
-        },
-        "16:10": {
-          "sizeX:3": 24,
-          "x:3": -164,
-          "y:3": -48,
+          "x:3": -216,
+          "y:3": -44,
           "id:3": 17,
           "sizeY:3": 24
         },
-        "17:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": -296,
           "y:3": -104,
           "id:3": 18,
           "sizeY:3": 24
         },
-        "18:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": -296,
           "y:3": -48,
@@ -2309,7 +3036,7 @@
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "The end of the world-ch0 (WIP)",
+          "name:8": "The end of the world-ch0",
           "icon:10": {
             "id:8": "minecraft:bedrock",
             "Count:3": 1,
@@ -2323,47 +3050,12 @@
       },
       "order:3": 0
     },
-    "1:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 24,
-          "x:3": -212,
-          "y:3": -168,
-          "id:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "sizeX:3": 24,
-          "x:3": -156,
-          "y:3": -116,
-          "id:3": 25,
-          "sizeY:3": 24
-        }
-      },
-      "lineID:3": 0,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "Restoring civilization-ch1",
-          "icon:10": {
-            "id:8": "minecraft:book",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": ""
-        }
-      },
-      "order:3": 1
-    },
     "2:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -160,
-          "y:3": -164,
+          "x:3": -180,
+          "y:3": -232,
           "id:3": 20,
           "sizeY:3": 24
         },
@@ -2388,7 +3080,7 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": ""
+          "desc:8": "Magic? oh... is power of the VOID"
         }
       },
       "order:3": 2
@@ -2408,7 +3100,7 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No Description"
+          "desc:8": "Old world memory...what does it mean?"
         }
       },
       "order:3": 3
@@ -2457,32 +3149,12 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No Description"
+          "desc:8": ""
         }
       },
       "order:3": 4
     },
     "5:10": {
-      "quests:9": {},
-      "lineID:3": 8,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "Logics",
-          "icon:10": {
-            "id:8": "minecraft:book",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "No Description"
-        }
-      },
-      "order:3": 5
-    },
-    "6:10": {
       "quests:9": {},
       "lineID:3": 5,
       "properties:10": {
@@ -2497,18 +3169,60 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No Description"
+          "desc:8": "Farming is the foundation of world"
         }
       },
-      "order:3": 6
+      "order:3": 7
     },
-    "7:10": {
+    "6:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -192,
-          "y:3": -156,
+          "x:3": -152,
+          "y:3": -188,
+          "id:3": 8,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -240,
+          "y:3": -212,
           "id:3": 28,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -152,
+          "y:3": -144,
+          "id:3": 29,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -176,
+          "y:3": -100,
+          "id:3": 30,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -220,
+          "y:3": -100,
+          "id:3": 31,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -100,
+          "id:3": 32,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -88,
+          "y:3": -100,
+          "id:3": 33,
           "sizeY:3": 24
         }
       },
@@ -2525,12 +3239,12 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No Description"
+          "desc:8": "Dong...Dong...Dong..."
         }
       },
-      "order:3": 7
+      "order:3": 8
     },
-    "8:10": {
+    "7:10": {
       "quests:9": {},
       "lineID:3": 7,
       "properties:10": {
@@ -2545,18 +3259,26 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No Description"
+          "desc:8": "Eating is a pleasure, so don\u0027t be shy to have some fat!"
         }
       },
-      "order:3": 8
+      "order:3": 9
     },
-    "9:10": {
-      "quests:9": {},
-      "lineID:3": 9,
+    "8:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -280,
+          "y:3": -200,
+          "id:3": 39,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 8,
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "Arensal",
+          "name:8": "Logistics",
           "icon:10": {
             "id:8": "minecraft:book",
             "Count:3": 1,
@@ -2565,10 +3287,86 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No Description"
+          "desc:8": "Worrying storage?"
         }
       },
-      "order:3": 9
+      "order:3": 6
+    },
+    "9:10": {
+      "quests:9": {},
+      "lineID:3": 9,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Arsensal",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "\"Best defense is offensive\" better get the weapon done."
+        }
+      },
+      "order:3": 10
+    },
+    "10:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -248,
+          "y:3": -196,
+          "id:3": 34,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -112,
+          "y:3": -152,
+          "id:3": 35,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -188,
+          "y:3": -152,
+          "id:3": 36,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -188,
+          "y:3": -100,
+          "id:3": 37,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -112,
+          "y:3": -100,
+          "id:3": 38,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 10,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Treasure hunting",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Delieve thing back to your island"
+        }
+      },
+      "order:3": 5
     }
   },
   "questSettings:10": {
