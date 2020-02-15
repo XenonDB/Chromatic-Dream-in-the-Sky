@@ -1,0 +1,16 @@
+[
+{
+  "modid": "chromaticdreamutils",
+  "name": "Chromatic Dream Utilities",
+  "description": "For modpack 'Chromatic Dream in the Sky'",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["passengerDB","asd7766zxc"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
