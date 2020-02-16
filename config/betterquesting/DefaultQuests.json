@@ -947,7 +947,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "partySingleReward:1": 0,
-          "visibility:8": "HIDDEN",
+          "visibility:8": "UNLOCKED",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1040,7 +1040,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "partySingleReward:1": 0,
-          "visibility:8": "HIDDEN",
+          "visibility:8": "UNLOCKED",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1162,7 +1162,7 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:stone",
+            "id:8": "exnihilo:sifting_table",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1226,7 +1226,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "partySingleReward:1": 0,
-          "visibility:8": "HIDDEN",
+          "visibility:8": "UNLOCKED",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1257,7 +1257,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:gravel",
-              "Count:3": 16,
+              "Count:3": 8,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1274,7 +1274,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:coal",
-              "Count:3": 8,
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1294,7 +1294,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "partySingleReward:1": 0,
-          "visibility:8": "HIDDEN",
+          "visibility:8": "UNLOCKED",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1325,7 +1325,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "IC2:itemCrushedOre",
-              "Count:3": 8,
+              "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1362,7 +1362,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "taskLogic:8": "AND",
           "partySingleReward:1": 0,
-          "visibility:8": "HIDDEN",
+          "visibility:8": "UNLOCKED",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2865,6 +2865,307 @@
         }
       },
       "rewards:9": {}
+    },
+    "40:10": {
+      "questID:3": 40,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Placeholder",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "placeholder"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "41:10": {
+      "questID:3": 41,
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:mortarandpestleItem",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Become a chef",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Cooking mama?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:mortarandpestleItem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "harvestcraft:bakewareItem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "harvestcraft:mixingbowlItem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "42:10": {
+      "questID:3": 42,
+      "preRequisites:11": [
+        41
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:cuttingboardItem",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Chop chop",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Now just need something to cook"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:cuttingboardItem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "harvestcraft:skilletItem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "harvestcraft:saucepanItem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "harvestcraft:potItem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "43:10": {
+      "questID:3": 43,
+      "preRequisites:11": [
+        41
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Natura:BerryBush",
+            "Count:3": 1,
+            "Damage:2": 12,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Raw barry",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Juicy!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Natura:BerryBush",
+              "Count:3": 1,
+              "Damage:2": 12,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "Natura:BerryBush",
+              "Count:3": 1,
+              "Damage:2": 13,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "Natura:BerryBush",
+              "Count:3": 1,
+              "Damage:2": 14,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "Natura:BerryBush",
+              "Count:3": 1,
+              "Damage:2": 15,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "44:10": {
+      "questID:3": 44,
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "UNLOCKED",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "betterquesting:placeholder",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Special Mission",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "How long can i have more food!\n\nIn order to avoid starvation, craft the juicer once you obtain furance.\n\n\n\"Remanber, no starvation.\"--Yun"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:juicerItem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -2891,7 +3192,7 @@
           "visibility:8": "NORMAL",
           "name:8": "Restoring civilization-ch1",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "EnderIO:blockStirlingGenerator",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -2907,7 +3208,7 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -372,
+          "x:3": -324,
           "y:3": -256,
           "id:3": 0,
           "sizeY:3": 24
@@ -2935,8 +3236,8 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -320,
-          "y:3": -256,
+          "x:3": -300,
+          "y:3": -224,
           "id:3": 4,
           "sizeY:3": 24
         },
@@ -3030,6 +3331,13 @@
           "y:3": -48,
           "id:3": 19,
           "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -192,
+          "y:3": -120,
+          "id:3": 44,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 1,
@@ -3073,7 +3381,7 @@
           "visibility:8": "NORMAL",
           "name:8": "Ancient knowledge-ch2",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "Thaumcraft:ItemThaumonomicon",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -3093,7 +3401,7 @@
           "visibility:8": "NORMAL",
           "name:8": "Dream World-ch3-(WIP)",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "ThaumicExploration:charmNoTaint",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -3142,8 +3450,16 @@
           "visibility:8": "NORMAL",
           "name:8": "Chromatic-ch4-(WIP)",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "ChromatiCraft:chromaticraft_item_help",
             "Count:3": 1,
+            "tag:10": {
+              "pages:9": {
+                "0:8": "CRYSTALS",
+                "1:8": "CASTTABLE",
+                "2:8": "WAND",
+                "3:8": "FRAGMENT"
+              }
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -3162,7 +3478,7 @@
           "visibility:8": "NORMAL",
           "name:8": "Agriculture, bee and farm",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "AgriCraft:seedAnalyzer",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -3232,8 +3548,35 @@
           "visibility:8": "NORMAL",
           "name:8": "Tinker, tool and smeltery",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "TConstruct:pickaxe",
             "Count:3": 1,
+            "tag:10": {
+              "InfiTool:10": {
+                "BaseDurability:3": 97,
+                "Head:3": 0,
+                "BaseAttack:3": 1,
+                "Built:1": 1,
+                "HarvestLevel:3": 1,
+                "Attack:3": 1,
+                "RenderHead:3": 0,
+                "ModDurability:5": 0.0,
+                "Handle:3": 0,
+                "Broken:1": 0,
+                "Shoddy:5": 0.0,
+                "RenderHandle:3": 0,
+                "Accessory:3": 0,
+                "MiningSpeed:3": 350,
+                "RenderAccessory:3": 0,
+                "Unbreaking:3": 0,
+                "Damage:3": 0,
+                "BonusDurability:3": 0,
+                "TotalDurability:3": 97,
+                "Modifiers:3": 3
+              },
+              "display:10": {
+                "Name:8": "§fWooden Pickaxe"
+              }
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -3245,14 +3588,43 @@
       "order:3": 8
     },
     "7:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -272,
+          "y:3": -204,
+          "id:3": 40,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": -184,
+          "id:3": 41,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -128,
+          "y:3": -144,
+          "id:3": 42,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -208,
+          "y:3": -144,
+          "id:3": 43,
+          "sizeY:3": 24
+        }
+      },
       "lineID:3": 7,
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "Master Chief",
+          "name:8": "Master Chef",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "harvestcraft:cuttingboardItem",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -3280,7 +3652,7 @@
           "visibility:8": "NORMAL",
           "name:8": "Logistics",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "appliedenergistics2:tile.BlockController",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -3300,8 +3672,11 @@
           "visibility:8": "NORMAL",
           "name:8": "Arsensal",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "DraconicEvolution:draconicBow",
             "Count:3": 1,
+            "tag:10": {
+              "Energy:3": 10000000
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
