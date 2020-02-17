@@ -144,6 +144,6 @@ mods.immersiveengineering.Excavator.addMineral("Coal", 25, 0.1, ["oreCoal", "den
 
 mods.immersiveengineering.Excavator.addMineral("Unstable Space", 40, 0.1, ["oreChroThermitic", "orechroVibrantCrystal", "orechroVoidStone"], [0.6, 0.2, 0.2], [-37], false);
 mods.immersiveengineering.Excavator.addMineral("Overflowing Lumen", 100, 0.0, 
-["oreCoal", "oreLapis", "oreRedstone", "oreDiamond", "oreEmerald", "oreIron", "oreGold", "oreCopper", "oreTin", "oreLead", "oreConstraintMetal", "oreImagSilicon", "oreAluminum", "oreNickel", "orePlatinum", "oreSilver", "oreUranium", "oreChargedCertusQuartz", "oreImagCrystal", "oreResonantCyrstal", "oreOsmium", "oreMithril"], 
+["oreCoal", "oreLapis", "oreRedstone", "oreDiamond", "oreEmerald", "oreIron", "oreGold", "oreCopper", "oreTin", "oreLead", "oreConstraintMetal", "oreImagSilicon", "oreAluminum", "oreNickel", "orePlatinum", "oreSilver", "oreUranium", "oreChargedCertusQuartz", "oreImagCrystal", "oreResonantCrystal", "oreOsmium", "oreMithril"], 
 [100, 12, 12, 10, 4, 60, 12, 30, 20, 20, 15, 15, 40, 15, 2, 10, 15, 2, 8, 8, 25, 1], [-37], true);
 
