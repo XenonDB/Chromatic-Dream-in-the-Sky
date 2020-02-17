@@ -14,6 +14,12 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<academy-craft:eu_output>);
+recipes.remove(<academy-craft:eu_input>);
+recipes.remove(<academy-craft:rf_output>);
+recipes.remove(<academy-craft:rf_input>);
+recipes.remove(<academy-craft:ac_Item_convComp>);
+recipes.remove(<academy-craft:ac_Item_energyUnit>);
 recipes.remove(<DraconicEvolution:dissEnchanter>);
 recipes.remove(<Mekanism:MachineBlock:4>);
 recipes.remove(<ThermalExpansion:Frame:10>);
@@ -80,6 +86,18 @@ recipes.addShapeless(<IC2:blockRubSapling>, [<MineFactoryReloaded:rubberwood.sap
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<academy-craft:ac_Item_constPlate>, [[<ImmersiveEngineering:tool>], [<ore:ingotConstraintMetal>], [<ore:ingotConstraintMetal>]]);
+recipes.addShaped(<academy-craft:ac_Item_constPlate>, [[<ore:craftingToolForgeHammer>], [<ore:ingotConstraintMetal>], [<ore:ingotConstraintMetal>]]);
+recipes.addShaped(<academy-craft:rf_input>, [[<academy-craft:rf_output>]]);
+recipes.addShaped(<academy-craft:rf_output>, [[<academy-craft:rf_input>]]);
+recipes.addShaped(<academy-craft:eu_output>, [[<academy-craft:eu_input>]]);
+recipes.addShaped(<academy-craft:eu_input>, [[<academy-craft:eu_output>]]);
+recipes.addShaped(<academy-craft:eu_input>, [[<academy-craft:ac_Item_energyUnit:*>, <ore:machineFrame>, <IC2:itemCable>], [null, <academy-craft:ac_Item_convComp>, null]]);
+recipes.addShaped(<academy-craft:rf_input>, [[<academy-craft:ac_Item_energyUnit:*>, <ore:machineFrame>, <ore:plateConstraintMetal>], [null, <academy-craft:ac_Item_convComp>, null]]);
+recipes.addShaped(<academy-craft:ac_Item_convComp>, [[<ore:calcChip>], [<academy-craft:ac_Item_energyUnit:*>], [<ore:gemResonantCrystal>]]);
+recipes.addShaped(<academy-craft:ac_Item_energyUnit:13> * 4, [[null, <ore:plateConstraintMetal>, null], [<ore:plateConstraintMetal>, <ore:gemImagCrystalPure>, <ore:plateConstraintMetal>], [null, <ore:dataChip>, null]]);
+recipes.addShaped(<academy-craft:ac_Item_energyUnit:13> * 2, [[null, <ore:plateConstraintMetal>, null], [<ore:plateConstraintMetal>, <ore:gemImagCrystalNormal>, <ore:plateConstraintMetal>], [null, <ore:dataChip>, null]]);
+recipes.addShaped(<academy-craft:ac_Item_energyUnit:13>, [[null, <ore:plateConstraintMetal>, null], [<ore:plateConstraintMetal>, <ore:gemImagCrystalLow>, <ore:plateConstraintMetal>], [null, <ore:dataChip>, null]]);
 recipes.addShaped(<Mekanism:MachineBlock:4>, [[<ore:alloyUltimate>, <ore:alloyUltimate>, <ore:alloyUltimate>], [<Mekanism:MachineBlock:15>, <Mekanism:Robit:*>, <Mekanism:MachineBlock:15>], [<IC2:itemScannerAdv:*>, <IC2:blockMachine2:11>, <Mekanism:PartTransmitter:3>]]);
 recipes.addShaped(<ThermalExpansion:Frame:10>, [[<ore:ingotEnderium>, <ore:blockGlassHardened>, <ore:ingotEnderium>], [<ore:blockGlassHardened>, <Mekanism:TeleportationCore>, <ore:blockGlassHardened>], [<ore:ingotEnderium>, <ore:blockGlassHardened>, <ore:ingotEnderium>]]);
 recipes.addShaped(<EnderStorage:enderChest:4096>, [[<ore:rodBlaze>, <minecraft:wool>, <ore:rodBlaze>], [<ore:blockObsidian>, <minecraft:cauldron>, <ore:blockObsidian>], [<ore:rodBlaze>, <ore:itemEnderCrystal>, <ore:rodBlaze>]]);
