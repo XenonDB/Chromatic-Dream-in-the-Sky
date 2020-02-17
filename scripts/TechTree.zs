@@ -10,6 +10,10 @@ vanilla.loot.addChestLoot("dungeonChest", (<IC2:itemcrystalmemory>.withTag({Patt
 vanilla.loot.addChestLoot("dungeonChest", (<IC2:itemcrystalmemory>.withTag({Pattern: {id: 4164 as short, Count: 1 as byte, Damage: 14 as short}})).weight(6));
 vanilla.loot.addChestLoot("dungeonChest", (<IC2:itemcrystalmemory>.withTag({Pattern: {id: 4164 as short, Count: 1 as byte, Damage: 15 as short}})).weight(6));
 
+//add AcademyCraft resources into loot chest.
+vanilla.loot.addChestLoot("dungeonChest", <academy-craft:ac_Item_resoCrystal>.weight(15));
+vanilla.loot.addChestLoot("dungeonChest", <academy-craft:ac_Item_crystalLow>.weight(15));
+
 //remove TC shards hammer recipes
 mods.exnihilo.Hammer.removeRecipe(<minecraft:double_stone_slab:1>);
 mods.exnihilo.Hammer.removeRecipe(<minecraft:nether_brick>);
@@ -76,7 +80,6 @@ mods.exnihilo.Sieve.addRecipe(<minecraft:dirt>, [<exnihilo:stone>, <exnihilo:sto
 mods.exnihilo.Sieve.removeRecipe(<minecraft:gravel>);
 mods.exnihilo.Sieve.addRecipe(<minecraft:gravel>, <minecraft:flint>, 4);
 mods.exnihilo.Sieve.addRecipe(<minecraft:gravel>, <minecraft:coal>, 8);
-mods.exnihilo.Sieve.addRecipe(<minecraft:gravel>, <minecraft:dye:4>, 20);
 mods.exnihilo.Sieve.addRecipe(<minecraft:gravel>, <minecraft:diamond>, 128);
 mods.exnihilo.Sieve.addRecipe(<minecraft:gravel>, <minecraft:emerald>, 150);
 mods.exnihilo.Sieve.addRecipe(<minecraft:gravel>, <Forestry:apatite>, 32);
